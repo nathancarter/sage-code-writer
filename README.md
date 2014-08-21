@@ -34,10 +34,10 @@ $ git clone https://github.com/nathancarter/sage-code-writer.git
 ### Try out the tool
 
 From the Sage Math Cloud web interface for the project into
-which you've uploaded these files, Open `example.sagews` and
+which you've uploaded these files, open `example.sagews` and
 play with it, as the comments in that worksheet indicate.
 
-### To learn what's under the hood
+### Look under the hood
 
 1. Open `recipes.txt` and see the format for where it's getting the
    suggestions it presents to you.
