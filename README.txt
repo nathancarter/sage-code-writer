@@ -1,14 +1,46 @@
 
-If you're browsing this Sage project, and want to know what it does, I suggest reading things in this order:
-
-1. Open example.sagews and play with it as the comments in that worksheet instruct you to do.
-2. Open recipes.txt and see the format for where it's getting the suggestions it presents to you.
-3. Open nocodeplease.sage and read all the comments around the code.
-4. Open nocodeplease.js and read all the comments in the code.
-5. Open modal.js if you want to, but it's not really very important; it's just UI support code.
-
-If you have any questions, contact Nathan Carter (ncarter@bentley.edu), the author of these files.
-
-The file all.tasks was mostly for me (Nathan) to use during Sage Education Days 6, where most of this code was written.
-The file slide.sagews was for me to use during a presentation given at those same SEDays.
+To see what this project is about, you can watch the following
+video, but it is 26 minutes long.  However, you don't have to
+download or install anything to watch a video!
     See here: https://www.youtube.com/watch?v=JjnDNRqItq8
+
+To learn more about this project, proceed as follows:
+
+Before you can use this code, you must place it in a project in
+your Sage Math Cloud account; it can only functions there.
+
+1. Get these files into a Sage Math Cloud project, by doing ONE
+   OR THE OTHER of the following two items (not both) in a new
+   project in your Sage Math Cloud account:
+   a. Manually upload into that project all the files in this
+      repository.
+   OR
+   b. Clone this repository into that account by issuing the
+      following command at a terminal prompt in the project.
+$ git clone https://github.com/nathancarter/sage-code-writer.git
+
+2. From the Sage Math Cloud web interface for the project into
+   which you've uploaded these files, Open example.sagews and play
+   with it, as the comments in that worksheet instruct you to do.
+
+3. Open recipes.txt and see the format for where it's getting the
+   suggestions it presents to you.
+
+4. Open nocodeplease.sage and read all the comments around the
+   code.
+
+5. Open nocodeplease.js and read all the comments in the code.
+
+6. Optionally also open modal.js, but it's not really very
+   important; it's just UI support code.
+
+If you have any questions, contact Nathan Carter
+(ncarter@bentley.edu), the author of the initial commit in this
+repository.
+
+The file all.tasks was mostly for Nathan to use during
+Sage Education Days 6, where most of this code was written.
+The file slide.sagews was for me to use during a presentation
+given at those same SEDays, which was recorded on video, and
+appears on YouTube at the link given at the top of this file.
+
