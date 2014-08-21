@@ -1,7 +1,17 @@
 
-To see what this project is about, you can watch the following
-video, but it is 26 minutes long.  However, you don't have to
-download or install anything to watch a video!
+Sage Code Writer
+----------------
+
+This project adds to the Sage Math Cloud UI tools that write code
+for the user, in simple use cases.  This is just a
+proof-of-concept and is not yet beautiful or especially useful.
+The aim of creating it was to get people interested, so that they
+could take it from here, improving it steadily until it becomes
+good enough to include in the Sage Math Cloud code itself.
+
+For more information, you can watch the following video, but it is
+26 minutes long.  But the nice thing about videos is that you
+don't have to download or install anything to watch one!
     See here: https://www.youtube.com/watch?v=JjnDNRqItq8
 
 To learn more about this project, proceed as follows:
