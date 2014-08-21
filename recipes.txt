@@ -1,0 +1,119 @@
+
+Define a single-variable function
+# In Sage, before you use a variable, you must say that it is a variable.
+# Our function will be written in terms of x, so we declare it as a variable:
+x = var('x')
+# Now we define a function in the usual mathematical way,
+# using a caret (^) for exponentiation, like you would on some calculators:
+f(x) = x^2
+# Finally, we ask Sage to print out the function we just defined:
+f
+# When you evaluate this code, it will show you the result using arrow notation,
+# something like x |--> x^2, meaning "the function mapping x to x^2."
+
+Evaluate F at a point
+F : sage.symbolic.expression.Expression
+# This example code evaluates F at 3,
+# but you can replace that with whatever point you care about.
+F(x=3)
+
+Make a table of values for F
+F : sage.symbolic.expression.Expression
+# This example evaluates F at the following list of inputs.
+inputs = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+# But you can feel free to change that list to something different.
+table( [ [ x, F(x) ] for x in inputs ] )
+
+Find where FF equals zero
+FF : sage.symbolic.expression.Expression
+# You may expect the solution to be an array of numbers,
+# but it will actually be an array of equations.
+solutions = solve( FF == 0, x )
+# Then we ask Sage to print out the solutions we just found.
+solutions
+
+Make a graph of F
+F : sage.symbolic.expression.Expression
+# The default values here are to plot from x=0 to x=10,
+# but you can feel free to change those numbers
+# before you evaluate this code.
+show( plot( F, (x,0,10) ) )
+
+Differentiate F
+F : sage.symbolic.expression.Expression
+# We will not specify which variable by which to differentiate,
+# but just let Sage pick sensibly on our behalf.
+F.diff()
+
+Integrate F
+F : sage.symbolic.expression.Expression
+# We will not specify which variable by which to integrate,
+# but just let Sage pick sensibly on our behalf.
+# Note that no constant of integration is included in the output.
+F.integrate()
+
+Compose F and G
+F : sage.symbolic.expression.Expression
+G : sage.symbolic.expression.Expression
+# Composing two functions means plugging the output of one into the other.
+H(x) = F(x=G(x))
+# Now that we've defined H, we ask Sage to print it out for us.
+H
+
+Let me plug in lots of values to F
+F : sage.symbolic.expression.Expression
+# We create an interactive UI using the following syntax.
+@interact
+def _ ( input = 5 ):
+    print 'An input of %s maps to an output of %s.' % ( str(input), str(F(x=input)) )
+
+Create a matrix
+# This example creates a 3x3 matrix, the identity matrix of that size.
+# Feel free to add rows or columns, as long as each row has the same length.
+M = matrix( [ [ 1, 0, 0 ],
+              [ 0, 1, 0 ],
+              [ 0, 0, 1 ] ] )
+# After we've defined the matrix and stored it in the variable M,
+# we ask Sage to print out the matrix we just defined, so that we can see it.
+M
+
+Create a vector
+# This example creates a vector of length 3, but feel free to edit the code
+# to put more entries in the vector before you evaluate it.
+v = vector( [ 1, 2, 3 ] )
+# After we've defined the vector and stored it in the variable v,
+# we ask Sage to print out the vector we just defined, so that we can see it.
+v
+
+Compute the kernel of M
+M : sage.matrix.matrix_integer_dense.Matrix_integer_dense
+# Sage comes with a function for this built in!
+kernel(M)
+
+//Multiply MM times V (as a column)
+//MM : sage.matrix.matrix_integer_dense.Matrix_integer_dense
+//V : sage.modules.vector_integer_dense.Vector_integer_dense
+//# The ordinary * operation for multiplication multiplies matrices by vectors:
+//MM*V
+//
+//Multiply V (as a row) times MM
+//MM : sage.matrix.matrix_integer_dense.Matrix_integer_dense
+//V : sage.modules.vector_integer_dense.Vector_integer_dense
+//# The ordinary * operation for multiplication multiplies vectors by matrices:
+//V*MM
+//
+//Find X such that MMX=YY
+//MM : sage.matrix.matrix_integer_dense.Matrix_integer_dense
+//YY : sage.modules.vector_integer_dense.Vector_integer_dense
+//# Sage comes with an operator for this built in!
+//solution = MM \ YY
+//# Now we ask Sage to print the solution it found:
+//solution
+//# You could also evaluate MM*solution and be sure you get YY.
+
+Find the eigenvalues of MM
+MM : sage.matrix.matrix_integer_dense.Matrix_integer_dense
+# Sage matrices have this method built in.
+MM.eigenvalues()
+
+

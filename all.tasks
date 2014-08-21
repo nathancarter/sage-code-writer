@@ -1,0 +1,18 @@
+{"desc":"Fill out reimbursement form and submit to Rob Beezer #administrative\n","position":-1,"last_edited":1402962550054,"task_id":"f9359cf9-55dc-4398-a5df-d8ffcb20031d"}
+{"desc":"Make the UI fill the actions list based on the choices in the objects list\n(but it can be stupid, dummy data for now)","position":0,"last_edited":1402967040142,"task_id":"a19038ee-a095-4cef-869a-0a9fac6dc359","done":1402967040142}
+{"desc":"Create a protocol for doing Python look-ups of what actions exist that apply to the checkboxed items","position":1,"last_edited":1402969788592,"task_id":"ff43f22f-f2ab-4a40-a03d-8aa27290288e","done":1402969788592}
+{"desc":"Apply the protocol to fill the actions list based on the checkboxes","position":2,"last_edited":1402969791270,"task_id":"f0043010-0d81-4466-b349-8504e44ca764","done":1402969791270}
+{"desc":"Fill out first day survey #administrative","position":-2,"last_edited":1403046029824,"task_id":"dfa4907a-435d-48f6-a6e5-fdddff6c03a0","done":1403046029417}
+{"desc":"Come up with a good demo to show people","position":3,"last_edited":1403135427165,"task_id":"26c861af-a65b-4011-be0b-96f2ffc3ceef","done":1403135427165}
+{"desc":"Report the following list of cloud UI bugs/feature requests #administrative\n - vi: Pressing and holding a movement key (e.g., j) does not do it repeatedly\n - vi: Pressing . does not actually repeat the last command faithfully\n - There seems to be no way to execute all \"cells\" in the open worksheet\n - Is there a shortcut key for creating a new task in a `.tasks` file?","position":-0.5,"last_edited":1402970769372,"task_id":"7c9663de-b2df-492f-9ccb-1ffd11916212"}
+{"desc":"Use the result of the user's choice to add code to the end of the worksheet","position":2.5,"last_edited":1402982524213,"task_id":"0c7eb8fb-7f1e-42db-8a86-42e2b10e4af5","done":1402982524213}
+{"desc":"Create smart handling of multiple parameters of different types, and substitution","position":2.75,"last_edited":1403042745592,"task_id":"4328a4ad-584a-424a-80a9-ce13fa2a7314","done":1403042745182}
+{"desc":"Seed the database of code snippets to be robust enough for a small demo","position":2.875,"last_edited":1403042748302,"task_id":"db32dd5a-dd59-41f7-940b-b6d806eecc77","done":1403042747894}
+{"desc":"Make substitution work for one-parameter situations","position":2.625,"last_edited":1402982947083,"task_id":"d1602b26-179b-4096-a9e3-2947a0ca6a3a","done":1402982947083}
+{"desc":"Consider all permutations of checked inputs that match the signature #future","position":4,"last_edited":1403042728728,"task_id":"02374ee3-f395-4b35-b64e-730bc0d4432a"}
+{"desc":"Permit functions that compute the code to insert, rather than just static text #future","position":5,"last_edited":1403042785030,"task_id":"a3b742d0-b32a-4a13-8d3e-24b9b295b10b"}
+{"desc":"Have the entire current cell input available when computing code to insert #future","position":6,"last_edited":1403042861384,"task_id":"5ae44af0-c3b3-4289-8056-76b1209f1704"}
+{"desc":"Be smart about permitting application of a recipe to objects whose types are subclasses of the required class #future","position":7,"last_edited":1403044602538,"task_id":"42a03b31-cf41-4c99-9f38-417c14f74082"}
+{"desc":"If `A=foo` is evaluated repeatedly, only list the most recent A on the list of checkboxes #future","position":8,"last_edited":1403045469097,"task_id":"64042e24-5f00-47ff-ad99-2455689b8387"}
+{"desc":"Bug fix: arguments of different types get interchanged #bug","position":2.9375,"last_edited":1403046016420,"task_id":"47ff2a4f-5036-4558-b7c1-c20aca46f4f2"}
+{"desc":"Fill out third day survey #administrative","position":-0.25,"last_edited":1403142436820,"task_id":"ae0412a0-b8cb-48fe-89c6-acdaa2665b3a","done":1403142436820}
