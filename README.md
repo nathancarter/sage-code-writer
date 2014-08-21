@@ -23,10 +23,10 @@ your Sage Math Cloud account; it can only functions there.
 1. Get these files into a Sage Math Cloud project, by doing *ONE
    OR THE OTHER* of the following two items (not both) in a new
    project in your Sage Math Cloud account:
-   a. Manually upload into that project all the files in this
-      repository.
-   b. Clone this repository into that account by issuing the
-      following command at a terminal prompt in the project.
+   * Manually upload into that project all the files in this
+     repository.
+   * Clone this repository into that account by issuing the
+     following command at a terminal prompt in the project.
 ```
 $ git clone https://github.com/nathancarter/sage-code-writer.git
 ```
