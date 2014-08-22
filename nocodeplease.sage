@@ -24,6 +24,7 @@ elephant_memory = dict()
 # See the few comments among the code below.
 def elephant(code):
     blocks = parsing.divide_into_blocks(code)
+    result = None
     # A cell may have many statements; this treats each separately:
     for start, stop, block in blocks:
         orig = block
