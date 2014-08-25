@@ -205,7 +205,7 @@ Dialog.prototype.contentElement = function ( id )
 Dialog.prototype.onHidden = function ( callback )
 {
     var that = this;
-    this.DOMObject().on( 'hidden.bs.modal', function () {
+    this.DOMObject().on( 'hide.bs.modal', function () {
         callback( that.hideButtonText );
     } );
 }
